@@ -1,0 +1,26 @@
+# Dépendances
+node_modules/
+
+# Sortie de compilation
+dist/
+
+# Fichiers de couverture de test
+coverage/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Logs
+*.log
+npm-debug.log*
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db

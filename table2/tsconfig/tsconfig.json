@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020", "DOM"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "skipLibCheck": true,
+   
+    "types": ["node", "jest"]
+  },
+  "exclude": [
+    "src/tests/*.dev.ts", // Exclut tous les .dev.ts du dossier tests
+    "node_modules",      // Exclut tout le dossier node_modules
+    "dist"               // Exclut le dossier de sortie
+  ]
+}

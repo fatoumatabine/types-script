@@ -1,0 +1,19 @@
+{
+  "name": "typescript-concepts-examples",
+  "version": "1.0.0",
+  "description": "Exemples de concepts TypeScript avec commentaires explicatifs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": ["typescript", "exemples", "types", "apprentissage"],
+  "author": "Votre nom",
+  "license": "MIT"
+}
